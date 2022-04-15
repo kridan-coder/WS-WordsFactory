@@ -16,6 +16,8 @@
 		3A219D322809D30100CAFD6E /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A219D2E2809D30100CAFD6E /* Rubik-Medium.ttf */; };
 		3A219D332809D30100CAFD6E /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A219D2F2809D30100CAFD6E /* Rubik-Regular.ttf */; };
 		3A219D342809D30100CAFD6E /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A219D302809D30100CAFD6E /* Rubik-Bold.ttf */; };
+		3A219D392809DEC900CAFD6E /* CustomIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A219D382809DEC900CAFD6E /* CustomIndexView.swift */; };
+		3AF61B4C2809E53800B5FE91 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF61B4B2809E53800B5FE91 /* FirstPage.swift */; };
 		3BBF6C5B8240734CD3D1D2B6 /* Pods_WS_WordsFactory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193723A2A0363A8D413C0D42 /* Pods_WS_WordsFactory.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 		3A219D2E2809D30100CAFD6E /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
 		3A219D2F2809D30100CAFD6E /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		3A219D302809D30100CAFD6E /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		3A219D382809DEC900CAFD6E /* CustomIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndexView.swift; sourceTree = "<group>"; };
+		3AF61B4B2809E53800B5FE91 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
 		446BA776BCD54E4847D1C6C4 /* Pods-WS-WordsFactory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WS-WordsFactory.release.xcconfig"; path = "Target Support Files/Pods-WS-WordsFactory/Pods-WS-WordsFactory.release.xcconfig"; sourceTree = "<group>"; };
 		9CC083085BD744DB6C272139 /* Pods-WS-WordsFactory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WS-WordsFactory.debug.xcconfig"; path = "Target Support Files/Pods-WS-WordsFactory/Pods-WS-WordsFactory.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,7 +66,6 @@
 				9CC083085BD744DB6C272139 /* Pods-WS-WordsFactory.debug.xcconfig */,
 				446BA776BCD54E4847D1C6C4 /* Pods-WS-WordsFactory.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -87,11 +90,11 @@
 		3A219D1A2809D24F00CAFD6E /* WS-WordsFactory */ = {
 			isa = PBXGroup;
 			children = (
+				3A219D352809D78F00CAFD6E /* OnBoard */,
 				3A219D2C2809D2F300CAFD6E /* Fonts */,
 				3A219D292809D2D700CAFD6E /* LaunchScreen.storyboard */,
 				3A219D2B2809D2E800CAFD6E /* Info.plist */,
 				3A219D1B2809D24F00CAFD6E /* WS_WordsFactoryApp.swift */,
-				3A219D1D2809D24F00CAFD6E /* ContentView.swift */,
 				3A219D1F2809D25000CAFD6E /* Assets.xcassets */,
 				3A219D212809D25000CAFD6E /* Preview Content */,
 			);
@@ -115,6 +118,16 @@
 				3A219D2D2809D30100CAFD6E /* Rubik-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3A219D352809D78F00CAFD6E /* OnBoard */ = {
+			isa = PBXGroup;
+			children = (
+				3A219D1D2809D24F00CAFD6E /* ContentView.swift */,
+				3A219D382809DEC900CAFD6E /* CustomIndexView.swift */,
+				3AF61B4B2809E53800B5FE91 /* FirstPage.swift */,
+			);
+			path = OnBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +251,8 @@
 			files = (
 				3A219D1E2809D24F00CAFD6E /* ContentView.swift in Sources */,
 				3A219D1C2809D24F00CAFD6E /* WS_WordsFactoryApp.swift in Sources */,
+				3A219D392809DEC900CAFD6E /* CustomIndexView.swift in Sources */,
+				3AF61B4C2809E53800B5FE91 /* FirstPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

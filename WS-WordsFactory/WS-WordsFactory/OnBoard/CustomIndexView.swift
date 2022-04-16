@@ -17,12 +17,9 @@ struct CustomIndexView: View {
           Capsule()
             .foregroundColor(index == currentPage ? Color("Blue") : Color("LightGray"))
             .frame(width: index == currentPage ? 20 : 6)
-            .id(index)
-          
         }
       }
       .frame(height: 6)
-      
     }
 }
 

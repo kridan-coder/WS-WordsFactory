@@ -1,20 +1,18 @@
 //
-//  FirstPage.swift
+//  ThirdPage.swift
 //  WS-WordsFactory
-//
-//  Created by Daniel Krivelev on 16.04.2022.
 //
 
 import SwiftUI
 
-struct FirstPage: View {
+struct ThirdPage: View {
     var body: some View {
       VStack {
-        Image("CoolKidsLongDistanceRelationship")
+        Image("CoolKidsHighTech")
           .resizable()
           .scaledToFit()
           .padding()
-        Text("Learn anytime and anywhere")
+        Text("Improve your skills")
           .padding(.horizontal, 50)
           .font(.custom("Rubik-Medium", size: 22))
         Text("Quarantine is the perfect time to spend your day learning something new, from anywhere!")
@@ -28,8 +26,8 @@ struct FirstPage: View {
     }
 }
 
-struct FirstPage_Previews: PreviewProvider {
+struct ThirdPage_Previews: PreviewProvider {
     static var previews: some View {
-        FirstPage()
+        ThirdPage()
     }
 }

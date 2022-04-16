@@ -17,6 +17,9 @@
 		3A219D332809D30100CAFD6E /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A219D2F2809D30100CAFD6E /* Rubik-Regular.ttf */; };
 		3A219D342809D30100CAFD6E /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A219D302809D30100CAFD6E /* Rubik-Bold.ttf */; };
 		3A219D392809DEC900CAFD6E /* CustomIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A219D382809DEC900CAFD6E /* CustomIndexView.swift */; };
+		3A7CECA5280A9E4200FD4D49 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7CECA4280A9E4200FD4D49 /* SecondPage.swift */; };
+		3A7CECA7280A9E8E00FD4D49 /* ThirdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7CECA6280A9E8E00FD4D49 /* ThirdPage.swift */; };
+		3A7CECAA280A9FC200FD4D49 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7CECA9280A9FC200FD4D49 /* SignUp.swift */; };
 		3AF61B4C2809E53800B5FE91 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF61B4B2809E53800B5FE91 /* FirstPage.swift */; };
 		3BBF6C5B8240734CD3D1D2B6 /* Pods_WS_WordsFactory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193723A2A0363A8D413C0D42 /* Pods_WS_WordsFactory.framework */; };
 /* End PBXBuildFile section */
@@ -35,6 +38,9 @@
 		3A219D2F2809D30100CAFD6E /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		3A219D302809D30100CAFD6E /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		3A219D382809DEC900CAFD6E /* CustomIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndexView.swift; sourceTree = "<group>"; };
+		3A7CECA4280A9E4200FD4D49 /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
+		3A7CECA6280A9E8E00FD4D49 /* ThirdPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPage.swift; sourceTree = "<group>"; };
+		3A7CECA9280A9FC200FD4D49 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		3AF61B4B2809E53800B5FE91 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
 		446BA776BCD54E4847D1C6C4 /* Pods-WS-WordsFactory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WS-WordsFactory.release.xcconfig"; path = "Target Support Files/Pods-WS-WordsFactory/Pods-WS-WordsFactory.release.xcconfig"; sourceTree = "<group>"; };
 		9CC083085BD744DB6C272139 /* Pods-WS-WordsFactory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WS-WordsFactory.debug.xcconfig"; path = "Target Support Files/Pods-WS-WordsFactory/Pods-WS-WordsFactory.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +96,7 @@
 		3A219D1A2809D24F00CAFD6E /* WS-WordsFactory */ = {
 			isa = PBXGroup;
 			children = (
+				3A7CECA8280A9FB900FD4D49 /* SignUp */,
 				3A219D352809D78F00CAFD6E /* OnBoard */,
 				3A219D2C2809D2F300CAFD6E /* Fonts */,
 				3A219D292809D2D700CAFD6E /* LaunchScreen.storyboard */,
@@ -126,8 +133,18 @@
 				3A219D1D2809D24F00CAFD6E /* ContentView.swift */,
 				3A219D382809DEC900CAFD6E /* CustomIndexView.swift */,
 				3AF61B4B2809E53800B5FE91 /* FirstPage.swift */,
+				3A7CECA4280A9E4200FD4D49 /* SecondPage.swift */,
+				3A7CECA6280A9E8E00FD4D49 /* ThirdPage.swift */,
 			);
 			path = OnBoard;
+			sourceTree = "<group>";
+		};
+		3A7CECA8280A9FB900FD4D49 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				3A7CECA9280A9FC200FD4D49 /* SignUp.swift */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7CECAA280A9FC200FD4D49 /* SignUp.swift in Sources */,
 				3A219D1E2809D24F00CAFD6E /* ContentView.swift in Sources */,
+				3A7CECA5280A9E4200FD4D49 /* SecondPage.swift in Sources */,
+				3A7CECA7280A9E8E00FD4D49 /* ThirdPage.swift in Sources */,
 				3A219D1C2809D24F00CAFD6E /* WS_WordsFactoryApp.swift in Sources */,
 				3A219D392809DEC900CAFD6E /* CustomIndexView.swift in Sources */,
 				3AF61B4C2809E53800B5FE91 /* FirstPage.swift in Sources */,

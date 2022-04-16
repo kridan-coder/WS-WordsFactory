@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16164A15C148560AC791242A /* Pods_WS_WordsFactory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F888B60476CD45CEF0D42D /* Pods_WS_WordsFactory.framework */; };
 		3A219D1C2809D24F00CAFD6E /* WS_WordsFactoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A219D1B2809D24F00CAFD6E /* WS_WordsFactoryApp.swift */; };
 		3A219D1E2809D24F00CAFD6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A219D1D2809D24F00CAFD6E /* ContentView.swift */; };
 		3A219D202809D25000CAFD6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A219D1F2809D25000CAFD6E /* Assets.xcassets */; };
@@ -23,11 +24,9 @@
 		3A7CECAD280AB62400FD4D49 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7CECAC280AB62400FD4D49 /* Dictionary.swift */; };
 		3A7CECAF280AB84C00FD4D49 /* CornerRadiusShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7CECAE280AB84C00FD4D49 /* CornerRadiusShape.swift */; };
 		3AF61B4C2809E53800B5FE91 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF61B4B2809E53800B5FE91 /* FirstPage.swift */; };
-		3BBF6C5B8240734CD3D1D2B6 /* Pods_WS_WordsFactory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193723A2A0363A8D413C0D42 /* Pods_WS_WordsFactory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		193723A2A0363A8D413C0D42 /* Pods_WS_WordsFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WS_WordsFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A219D182809D24F00CAFD6E /* WS-WordsFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WS-WordsFactory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A219D1B2809D24F00CAFD6E /* WS_WordsFactoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WS_WordsFactoryApp.swift; sourceTree = "<group>"; };
 		3A219D1D2809D24F00CAFD6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,8 +45,9 @@
 		3A7CECAC280AB62400FD4D49 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		3A7CECAE280AB84C00FD4D49 /* CornerRadiusShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusShape.swift; sourceTree = "<group>"; };
 		3AF61B4B2809E53800B5FE91 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
-		446BA776BCD54E4847D1C6C4 /* Pods-WS-WordsFactory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WS-WordsFactory.release.xcconfig"; path = "Target Support Files/Pods-WS-WordsFactory/Pods-WS-WordsFactory.release.xcconfig"; sourceTree = "<group>"; };
-		9CC083085BD744DB6C272139 /* Pods-WS-WordsFactory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WS-WordsFactory.debug.xcconfig"; path = "Target Support Files/Pods-WS-WordsFactory/Pods-WS-WordsFactory.debug.xcconfig"; sourceTree = "<group>"; };
+		77F888B60476CD45CEF0D42D /* Pods_WS_WordsFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WS_WordsFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B436B52776472354467BBC26 /* Pods-WS-WordsFactory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WS-WordsFactory.release.xcconfig"; path = "Target Support Files/Pods-WS-WordsFactory/Pods-WS-WordsFactory.release.xcconfig"; sourceTree = "<group>"; };
+		CAF01AA8CA13A292145CB323 /* Pods-WS-WordsFactory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WS-WordsFactory.debug.xcconfig"; path = "Target Support Files/Pods-WS-WordsFactory/Pods-WS-WordsFactory.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,28 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BBF6C5B8240734CD3D1D2B6 /* Pods_WS_WordsFactory.framework in Frameworks */,
+				16164A15C148560AC791242A /* Pods_WS_WordsFactory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06C27486D336EB71637D1C55 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				193723A2A0363A8D413C0D42 /* Pods_WS_WordsFactory.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		0FD2056CE5B77839412D36E4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9CC083085BD744DB6C272139 /* Pods-WS-WordsFactory.debug.xcconfig */,
-				446BA776BCD54E4847D1C6C4 /* Pods-WS-WordsFactory.release.xcconfig */,
+				CAF01AA8CA13A292145CB323 /* Pods-WS-WordsFactory.debug.xcconfig */,
+				B436B52776472354467BBC26 /* Pods-WS-WordsFactory.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		321FA0F12D6369E6BCA448B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77F888B60476CD45CEF0D42D /* Pods_WS_WordsFactory.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		3A219D0F2809D24F00CAFD6E = {
@@ -85,7 +85,7 @@
 				3A219D1A2809D24F00CAFD6E /* WS-WordsFactory */,
 				3A219D192809D24F00CAFD6E /* Products */,
 				0FD2056CE5B77839412D36E4 /* Pods */,
-				06C27486D336EB71637D1C55 /* Frameworks */,
+				321FA0F12D6369E6BCA448B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,11 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A219D262809D25000CAFD6E /* Build configuration list for PBXNativeTarget "WS-WordsFactory" */;
 			buildPhases = (
-				FFA309D63F3D7FB0C055B364 /* [CP] Check Pods Manifest.lock */,
+				01B4205E391E2361FFE8161F /* [CP] Check Pods Manifest.lock */,
 				3A219D142809D24F00CAFD6E /* Sources */,
 				3A219D152809D24F00CAFD6E /* Frameworks */,
 				3A219D162809D24F00CAFD6E /* Resources */,
-				4F33F82AB77EA2FF3C2E16F1 /* [CP] Embed Pods Frameworks */,
+				7CC518AF6EA4A3E31CBF4177 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,24 +234,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4F33F82AB77EA2FF3C2E16F1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WS-WordsFactory/Pods-WS-WordsFactory-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WS-WordsFactory/Pods-WS-WordsFactory-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WS-WordsFactory/Pods-WS-WordsFactory-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FFA309D63F3D7FB0C055B364 /* [CP] Check Pods Manifest.lock */ = {
+		01B4205E391E2361FFE8161F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -271,6 +254,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CC518AF6EA4A3E31CBF4177 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WS-WordsFactory/Pods-WS-WordsFactory-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WS-WordsFactory/Pods-WS-WordsFactory-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WS-WordsFactory/Pods-WS-WordsFactory-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -411,7 +411,7 @@
 		};
 		3A219D272809D25000CAFD6E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CC083085BD744DB6C272139 /* Pods-WS-WordsFactory.debug.xcconfig */;
+			baseConfigurationReference = CAF01AA8CA13A292145CB323 /* Pods-WS-WordsFactory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,7 +443,7 @@
 		};
 		3A219D282809D25000CAFD6E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 446BA776BCD54E4847D1C6C4 /* Pods-WS-WordsFactory.release.xcconfig */;
+			baseConfigurationReference = B436B52776472354467BBC26 /* Pods-WS-WordsFactory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

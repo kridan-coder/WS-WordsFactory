@@ -8,4 +8,5 @@ target 'WS-WordsFactory' do
   # Pods for WS-WordsFactory
   pod 'Kingfisher'
   pod 'Alamofire'
+  pod 'RealmSwift'
 end

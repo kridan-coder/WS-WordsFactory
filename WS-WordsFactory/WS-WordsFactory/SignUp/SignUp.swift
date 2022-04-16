@@ -22,15 +22,17 @@ struct SignUp: View {
           Image("CoolKidsStanding")
             .resizable()
             .scaledToFit()
+            .padding(.top)
           Text("Sign Up")
             .padding(.horizontal, 50)
             .font(.custom("Rubik-Medium", size: 22))
-            .padding(.bottom, 8)
+            .padding(.bottom, 5)
             .padding(.top, 6)
           Text("Create your account")
             .padding(.horizontal, 50)
             .font(.custom("Rubik-Regular", size: 14))
             .foregroundColor(Color("InkGray"))
+            .padding(.bottom, 5)
           
           TextField("Name", text: $name)
             .frame(height: 18)
@@ -91,10 +93,11 @@ struct SignUp: View {
               Spacer()
             }
           }
-          .frame(height: 60)
+          .frame(height: 50)
           .background(Color("Orange"))
           .cornerRadius(16)
           .padding(.horizontal)
+          .padding(.bottom)
           
           
         }

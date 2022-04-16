@@ -13,6 +13,7 @@ struct ThirdPage: View {
           .scaledToFit()
           .padding()
         Text("Improve your skills")
+          .multilineTextAlignment(.center)
           .padding(.horizontal, 50)
           .font(.custom("Rubik-Medium", size: 22))
         Text("Quarantine is the perfect time to spend your day learning something new, from anywhere!")
@@ -23,6 +24,7 @@ struct ThirdPage: View {
           .foregroundColor(Color("InkGray"))
 
       }
+      .padding()
     }
 }
 

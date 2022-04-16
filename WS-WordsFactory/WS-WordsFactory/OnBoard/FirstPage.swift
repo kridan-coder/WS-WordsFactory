@@ -15,6 +15,7 @@ struct FirstPage: View {
           .scaledToFit()
           .padding()
         Text("Learn anytime and anywhere")
+          .multilineTextAlignment(.center)
           .padding(.horizontal, 50)
           .font(.custom("Rubik-Medium", size: 22))
         Text("Quarantine is the perfect time to spend your day learning something new, from anywhere!")
@@ -25,6 +26,7 @@ struct FirstPage: View {
           .foregroundColor(Color("InkGray"))
 
       }
+      .padding()
     }
 }
 

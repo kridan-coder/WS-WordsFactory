@@ -29,7 +29,7 @@ struct ContentView: View {
           SecondPage().tag(1)
           ThirdPage().tag(2)
         }
-        .tabViewStyle(.page)
+        .tabViewStyle(.page(indexDisplayMode: .never))
         .overlay(CustomIndexView(numberOfPages: 3, currentPage: currentPage), alignment: .bottom)
         .onChange(of: currentPage) { newValue in
           print(newValue)
